@@ -1,4 +1,4 @@
-
+// import {Characters} from "./Characters";
 const Character = ({character}) => {
     const {id, name, status, species, gender, image} = character;
     return (
