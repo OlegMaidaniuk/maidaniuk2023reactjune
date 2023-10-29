@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import {Posts} from "./ components/PostsContainer/Posts/Posts";
 
 function App() {
   return (
     <div className="App">
-<h2>  lesson React Maidaniuk O.V.</h2>
+<h2> 2 lesson React Maidaniuk O.V. </h2>
+        <Posts/>
     </div>
   );
 }
