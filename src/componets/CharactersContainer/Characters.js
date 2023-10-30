@@ -1,5 +1,4 @@
 import {Character} from "./Character";
-
 const Characters = () => {
     const characters = [
         {id:1, name:'Rick Sanchez', status:'Alive', species:'Human', gender:'Male', image:'https://rickandmortyapi.com/api/character/avatar/1.jpeg'},
@@ -10,10 +9,7 @@ const Characters = () => {
         {id:6, name:'Abadango Cluster Princess', status:'Alive', species:'Human', gender:'Female', image:'https://rickandmortyapi.com/api/character/avatar/6.jpeg'}
     ]
     return (
-        <div>
-            {characters.map(character=><Character key={character.id}/>)}
-        </div>
+        <div>{characters.map(character=><Character key={character.id} character={character}/>)}</div>
     );
 };
-
 export {Characters};
