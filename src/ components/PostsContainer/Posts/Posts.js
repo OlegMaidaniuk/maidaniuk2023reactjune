@@ -17,4 +17,5 @@ const Posts = () => {
                 {posts.map(post => <Post key={post.id} post={post} getPostId={getPostId}/>)}
             </div>
         </div>);};
+
 export {Posts};
