@@ -4,7 +4,7 @@ import {Launches} from "./ components/LaunchersContainer/Launches/Launches";
 
 function App() {
   return (
-    <div className="App">
+    <div>
 <h2> 2 lesson React Maidaniuk O.V. </h2>
         <Posts/>
         <Launches/>
