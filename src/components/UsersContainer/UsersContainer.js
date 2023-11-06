@@ -10,7 +10,7 @@ const UsersContainer = () => {
     },[])
     return (
         <div style={{width:'50%'}}>
-            <UserForm/>
+            <UserForm setUsers={setUsers}/>
             <hr/>
             <Users users={users}/>
         </div>
