@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import {UsersContainer} from "./components/UsersContainer/UsersContainer";
-import {CommentsContainer} from "./components/CommetsCotainer/CommentsContainer";
+// import {UsersContainer} from "./components/UsersContainer/UsersContainer";
+// import {CommentsContainer} from "./components/CommetsCotainer/CommentsContainer";
+import {CarsContainer} from "./components/CarsContainer/CarsContainer";
 
 function App() {
   return (
-    <div className="App">
-<h2>  lesson3 React Maidaniuk O.V.</h2>
-        <UsersContainer/>
-        <CommentsContainer/>
+    <div>
+<h2>  lesson3.2 React Maidaniuk O.V.</h2>
+<CarsContainer/>
     </div>
   );
 }
