@@ -1,4 +1,4 @@
-// import axios from "axios";
+import axios from "axios";
 import {axiosService} from "./axiosService";
 import {urls} from "../constants/Urls";
 
